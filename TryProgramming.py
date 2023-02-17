@@ -1,3 +1,4 @@
+import os
 print('''
 Para crear una pagina web se usa HTML\n
 En el block de notas de abajo necesito\n
@@ -16,3 +17,4 @@ while(Abrir_pagina!="<html>"):
     Abrir_pagina=input("Abre la pagina >> ")
 while(Cierra_pagina!="</html>"):
     Cierra_pagina=input("Cierra la pagina >> ")
+os.system("clear")
